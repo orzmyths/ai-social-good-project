@@ -62,7 +62,7 @@ For David, this means the budgeting advice he receives is tied to the wrong prob
 
 > **Screenshot — Edge Case Output from Section 5 of the prototype notebook:**
 
-![Edge Case Output](AISG_image2.webp)
+![Edge Case Output](AISG_Image2.webp)
 
 ---
 
