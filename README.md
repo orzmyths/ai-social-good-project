@@ -1,5 +1,3 @@
-# ai-social-good-project
-Lazy Finance Ai 
 # AI-Powered Personal Finance Assistant for College Students
 
 > **Course:** Fundamentals of MIS | **SDG:** Goal 10 — Reduced Inequalities
@@ -43,7 +41,9 @@ The system produces a categorized spending summary with a spending-level label (
 **Who Acts on It**
 David reviews the AI output after each spending period. He compares the AI's category breakdown against his own perception of where his money went, identifies discrepancies, and uses the recommendation to adjust one behavior before the next period. The AI supports his decision — it does not make the decision for him.
 
-> **Screenshots of prototype output are included in the repository notebook (see `milestone3_prototype.ipynb`).**
+> **Screenshot — Structured Output from Section 3 of the prototype notebook:**
+
+![Workflow Output](AISG_image1.webp)
 
 ---
 
@@ -59,6 +59,10 @@ The AI correctly calculated the total spending ($93) but assigned a single `main
 
 **The Real-World Consequence**
 For David, this means the budgeting advice he receives is tied to the wrong problem. If the AI labels his main category as `Shopping` when his real overspending is in `Food` and `Transportation`, he may reduce discretionary purchases — and still run out of money — because the actual behavior driving his shortfall was never identified. The Lab 2 output demonstrated that this kind of inconsistency is not hypothetical; it was observed in a real prototype run.
+
+> **Screenshot — Edge Case Output from Section 5 of the prototype notebook:**
+
+![Edge Case Output](AISG_image2.webp)
 
 ---
 
